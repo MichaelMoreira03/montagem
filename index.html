@@ -40,8 +40,7 @@
             <h3>Como funciona a conversão de tensão?</h3>
                 <p>Conforme podemos ver na figura abaixo, vamos explicar o passo a passo sobre como se dá essa conversão:</p>
         <div class="topicos">
-            <ol>
-                <li>Na entrada, a corrente elétrica vem da rua com uma tensão alternada de 220V. Ela alterna entre 220V positivo e 220V negativo;</li>
+                <li  class="ponto_1">Na entrada, a corrente elétrica vem da rua com uma tensão alternada de 220V. Ela alterna entre 220V positivo e 220V negativo;</li>
                 
                 <li>Um transformador reduz a tensão para 12V, contudo, a corrente elétrica continua alternada, entre 12V positivo e 12V negativo. Outro problema é que, quanto mais corrente elétrica passa pelo transformador, maior deverá ser este transformador;</li>
                 
@@ -50,7 +49,6 @@
                 <li>Depois um filtro transforma essa pulsação em tensão contínua de 12V. O filtro é formado por capacitores. Um problema é as oscilações que ocorrem na tensão contínua, que podem causar problemas nos componentes eletrônicos. Para resolver esse problema, o filtro é formado por vários capacitores em paralelo, que reduzem as oscilações, mas não totalmente.</li>
                 
                 <li>Por último, um regulador remove a oscilação restante fazendo com que a tensão seja constante e contínua. O regulador pode ser um circuito integrado ou um diodo zener.</li>
-            </ol>
         </div>
             <h3>Mas e o problema do tamanho do transformador?</h3>
                 <p>Imagina como seriam as fontes de alimentação para placas de vídeo e jogos que dependem de correntes mais altas? O transformador seria grande e pesado. Para resolver este problema, foi adicionado antes do transformador um chaveador que converte a frequência da corrente elétrica de 60Hz para 20.000Hz. Assim, a corrente elétrica passa por um transformador menor, que é mais leve e mais barato.</p>
@@ -60,7 +58,78 @@
                 <p>ou:</p>
             <p>“Quero montar um computador com uma placa de vídeo de 300W, mas a fonte de alimentação que eu tenho é de 200W. Será que ela vai aguentar?”</p>
                 <p>ou então:</p>
-            <P>“Eu quero montar um computador com uma placa de vídeo de 300W, com placa-mãe gamer e processador de 8 núcleos. Qual fonte de alimentação eu devo comprar?”</P>    
+            <P>“Eu quero montar um computador com uma placa de vídeo de 300W, com placa-mãe gamer e processador de 8 núcleos. Qual fonte de alimentação eu devo comprar?”</P>
+  
+  <article>
+    <p></p>
+  </article>
+
+        </body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>montagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="line"> Montagem e Manutenção</div>
+        <h1>introdução</h1>
+            <p>A montagem e a manutenção de um computador é um processo relativamente simples, mas que requer alguns cuidados para que o equipamento funcione corretamente. Neste site, você aprenderá os conceitos básicos de montagem e manutenção de computadores, bem como a instalação de sistemas operacionais e aplicativos.</p>
+        <div class="lista1">
+            <ul>
+                <li>Vamos conhecer como funcionam as conversões entre tensões, bem como as características das fontes AT e ATX.</li>
+                <li>Fonte de alimentação</li>
+                <li>Conversão de tensões</li>
+                   <ul>- Como funciona a conversão de tensão?</ul>
+                   <ul>- Mas e o problema do tamanho do transformador?</ul>
+                <li>Cálculo de potências</li>
+                <li>Potência necessária para um computador</li>
+            </ul>
+        </div>
+        
+            <h2>Alimentação de um computador</h2>
+            <h3>Fonte AT e ATX</h3>
+                <p>fonte AT:  Nos modelos AT, o único conector soldado na placa-mãe era o do teclado. Qualquer periférico adicional, como o mouse, por exemplo, vinha da placa-mãe por um cabo.</p>
+                <ul>
+                </ul>
+                <p>fonte ATX:  - Nos modelos ATX vários conectores são soldados na placa e ficam acessíveis atrás do gabinete.</p>
+                <ul>
+                </ul>
+            <p>A fonte de alimentação de um computador é um componente essencial para o funcionamento do equipamento. Ela converte a energia elétrica da tomada em energia elétrica de baixa tensão para alimentar os componentes do computador.</p>
+            
+                <p>A fonte de alimentação é um componente que pode apresentar problemas de funcionamento, como a falta de energia em um componente específico ou em todos os componentes.</p>
+            <h2>Conversão de Tensões</h2>
+                <p>Uma rede elétrica pode oferecer uma tensão alternada de 110V ou 220V, dependendo do país.</p>
+                <p>Os componentes eletrônicos de um computador funcionam com uma tensão de 5V, 12V ou 3.3V. Essas tensões são contínuas e mais baixas.</p>
+            <h3>Como funciona a conversão de tensão?</h3>
+                <p>Conforme podemos ver na figura abaixo, vamos explicar o passo a passo sobre como se dá essa conversão:</p>
+        <div class="topicos">
+                <li  class="ponto_1">Na entrada, a corrente elétrica vem da rua com uma tensão alternada de 220V. Ela alterna entre 220V positivo e 220V negativo;</li>
+                
+                <li>Um transformador reduz a tensão para 12V, contudo, a corrente elétrica continua alternada, entre 12V positivo e 12V negativo. Outro problema é que, quanto mais corrente elétrica passa pelo transformador, maior deverá ser este transformador;</li>
+                
+                <li>Um outro circuito, chamado de circuito retificador, converte a corrente alternada em corrente contínua pulsante positiva, isto é, a tensão pulsa entre 0V e 12V positivo. O circuito retificador é composto por diodos, que são semicondutores que conduzem corrente elétrica em apenas uma direção;</li>
+                
+                <li>Depois um filtro transforma essa pulsação em tensão contínua de 12V. O filtro é formado por capacitores. Um problema é as oscilações que ocorrem na tensão contínua, que podem causar problemas nos componentes eletrônicos. Para resolver esse problema, o filtro é formado por vários capacitores em paralelo, que reduzem as oscilações, mas não totalmente.</li>
+                
+                <li>Por último, um regulador remove a oscilação restante fazendo com que a tensão seja constante e contínua. O regulador pode ser um circuito integrado ou um diodo zener.</li>
+        </div>
+            <h3>Mas e o problema do tamanho do transformador?</h3>
+                <p>Imagina como seriam as fontes de alimentação para placas de vídeo e jogos que dependem de correntes mais altas? O transformador seria grande e pesado. Para resolver este problema, foi adicionado antes do transformador um chaveador que converte a frequência da corrente elétrica de 60Hz para 20.000Hz. Assim, a corrente elétrica passa por um transformador menor, que é mais leve e mais barato.</p>
+
+            <h2>Cálculo de Potências</h2>
+            <p>“Eu tenho uma fonte de alimentação de 500W, mas meu computador não liga. Por que isso acontece?”</p>
+                <p>ou:</p>
+            <p>“Quero montar um computador com uma placa de vídeo de 300W, mas a fonte de alimentação que eu tenho é de 200W. Será que ela vai aguentar?”</p>
+                <p>ou então:</p>
+            <P>“Eu quero montar um computador com uma placa de vídeo de 300W, com placa-mãe gamer e processador de 8 núcleos. Qual fonte de alimentação eu devo comprar?”</P>
+  
+  <article>
+    <p></p>
+  </article>
 
         </body>
 </html>
