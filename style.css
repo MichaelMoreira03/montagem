@@ -1,6 +1,8 @@
+
 body{
-    background-color: antiquewhite;
-    margin-top: 2%;
+
+    justify content;
+    max-width: 80%;
 }
 
 p{
@@ -39,11 +41,9 @@ h3{
     position: relative;
     font-size: 60px;
 }
-
-.topicos2{
-    margin: 2em 1em 2em 0;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-style: italic;
-    border-left: 0.25em solid #f21368;
+.ponto_1{
+  padding-bottom: 12px;
+} 
+li{
+  list-style: none;
 }
