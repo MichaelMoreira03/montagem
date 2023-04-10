@@ -58,6 +58,19 @@ img{
     height: 600px;
 }
 .img3{
+    width: 720px;
+    height: 650px;
+}
+
+.formula{
+    font-size: 25px;
+    left: 12%;
+}
+.img4{
+    width: 620px;
+    height: 550px;;
+}
+.imgficha{
     width: 600px;
     height: 600px;
 }
