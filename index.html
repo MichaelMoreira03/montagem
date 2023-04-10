@@ -67,9 +67,76 @@
                 <p>ou então:</p>
             <P>“Eu quero montar um computador com uma placa de vídeo de 300W, com placa-mãe gamer e processador de 8 núcleos. Qual fonte de alimentação eu devo comprar?”</P>
             <p>Para responder essas perguntas, vamos entender como calcular a potência de uma fonte de alimentação.</p>
-  <article>
-    <p></p>
-  </article>
+            <p class="formula">P = V*I</p>
+            <p>A potência de uma fonte de alimentação é dada pela multiplicação da tensão pela corrente elétrica.
+            </p>
+            <p>Exemplo 1:</p>
+            <p>Imagine um drive óptico de 1,8A alimentado por 5V mais 500mA alimentado a 12V. A potência desse drive é:</p>
+            <div class="topicos">
+               <li>Passo 1: converta a corrente elétrica para amperes (A).Assim sendo:</li>
+               <p>A fórmula para converter de miliamperes para amperes é:</p>
+               <p>1000mA = 1A</p>
+               <p>Logo:</p>
+               <p>500mA = 0,5A</p>
+               <li>Passo 2: realize o cálculo da potência para o primeiro consumo (5V) e corrente (1,8A). Assim sendo:</li>
+               <p>500mA = 0,5A</p>
+               <li>Passo 3: realize o cálculo da potência para a segundo consumo (12V) e corrente (0,5A). Assim sendo:</li>
+               <p>P2 = 12Vx0,5A = 6W</p>
+               <li>Passo 4: some as potências. Assim sendo:</li>
+               <p>P = P1+P2 =</p>
+               <p>9W+6W</p>
+               <p>=15W</p>
+            </div>
+            <p>Exemplo 2:</p>
+            <p>Imagine uma placa de som alimentada da seguinte forma:</p>
+            <div class="topicos">
+               <li>Passo 1: converta a corrente elétrica para amperes (A). Assim sendo:</li>
+               <p>A fórmula para converter de miliamperes para amperes é:</p>
+               <p>1000mA = 1A</p>
+               <p>Logo:</p>
+               <p>400mA = 0,4A</p>
+               <p>200mA = 0,2A</p>
+               <p>30mA = 0,03A</p>
+                <li>Passo 2: realize o cálculo da potência para o primeiro consumo (5V) e corrente (0,4A). Assim sendo:</p>
+                <p>P1 = 5Vx0,4A = 2W</p>
+                <li>Passo 3: realize o cálculo da potência para o segundo consumo (12V) e corrente (0,2A). Assim sendo:</li>
+                <p>P2 = 12Vx0,2A = 2,4W</p>
+                <li>Passo 4: realize o cálculo da potência para o terceiro consumo (-12V) e corrente (0,03A). Assim sendo:</li>
+                <p>P3 = -12Vx0,03A = -0,36W </p>
+                <li>Passo 5: some as potências. Assim sendo:</li>
+                <p>P = P1+P2+P3</p>
+                <p>P = 2W+2,4W-0,36W </p>
+                <p>P = 4,04W</p>
+            </div>
+               <p>Exemplo 3</p>
+                <img class="img4" src="https://maxwellamaral.github.io/assets/images/lessons/psu_battery_sample.png">
+                <p>Perceba o que está impresso no banco de baterias: “Capacity: 3.7V 10000mAh 37Wh”. O que isso significa?</p>
+            <div class="topicos">
+                <li>3.7V é a tensão nominal da bateria;</li>
+                <li>10000mAh é a capacidade da bateria;</li>
+                <li>37Wh é a potência da bateria.</li>
+            </div>
+                <p>Mas qual será a real potência do banco de baterias, se as informações sobre tensão e corrente são verdadeiras?</p>
+            <div class="topicos">
+                <li>Passo 1: converta a corrente elétrica para amperes (A). Assim sendo:</li>
+            </div> 
+                <p>A fórmula para converter de miliamperes para amperes é:</p>
+                <p>1000mAh = 1Ah</p>
+                <p>Logo:</p>
+                <p>10000mAh = 10Ah</p>
+                <p>Ah é a unidade de medida de capacidade de uma bateria, cuja corrente é de 10A por hora. Assim sendo a corrente nominal da bateria é de 10A.</p>
+            <div class="topicos">    
+                <li>Passo 2: realize o cálculo da potência para o primeiro consumo (3.7V) e corrente (10A). Assim sendo:</li>
+            </div>    
+                <p>P=3.7V*10A=37W</p>
+                <p>Logo, a potência real do banco de baterias é de 37W.</p>
 
-        </body>
+            <h2>Potência necessária para um computador</h2>
+            <p>Agora que você já sabe como calcular as potências de componentes de um computador, vamos entender como calcular a potência necessária para uma fonte de alimentação. A potência necessária para um computador é dada pela soma das potências de todos os componentes do computador.</p>
+            <p>Exemplo: imagine um computador com as seguintes características.</p>
+            <img class="imgficha" src="./fichaW.jpg">
+            <p>A potência necessária para esse computador é de 758,2W. Logo, a fonte de alimentação deve ter uma potência superior a 758,2W. Eu indicaria a compra de uma fonte de alimentação com uma potência de, no mínimo, 800W, sendo recomendado 1000W.</p>
+            <p>Por que recomenda-se uma fonte de alimentação com uma potência de 1000W?</p>
+            <p>Porque a potência de uma fonte de alimentação é medida em picos. Ou seja, a fonte de alimentação pode fornecer 1000W por um curto período de tempo, mas não por um longo período de tempo. Por isso, é recomendado que a fonte de alimentação tenha uma potência superior a potência necessária para o computador. Outro motivo é possibilitar que você possa fazer upgrades no computador no futuro. Por exemplo, você pode adicionar uma placa de vídeo ou um processador mais potente.</p>  
+    </body>
 </html>
